@@ -1,5 +1,5 @@
 let numberAlreadyGuessedList = [];
-let limitNumber = 10;
+let limitNumber = 100;
 let secretNumber = generateRandomNumber();
 let tentatives = 1;
 
@@ -13,7 +13,7 @@ function showTextOnScreen(tag, text) {
 
 function showInitialMessage(){
     showTextOnScreen('h1', 'Game of the Secret Number');
-    showTextOnScreen('p', 'Choose one number between 1 and 10');
+    showTextOnScreen('p', 'Choose one number between 1 and 100');
 }
 
 
