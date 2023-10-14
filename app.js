@@ -1,5 +1,5 @@
 let numberAlreadyGuessedList = [];
-let limitNumber = 100;
+let limitNumber = 50;
 let secretNumber = generateRandomNumber();
 let tentatives = 1;
 
